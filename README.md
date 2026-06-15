@@ -17,5 +17,6 @@
 >variation = close_prices - open_prices
 
 This measure was used to capture the intraday directional movements of each stock. Positive values indicates that the stock gained value during that session, while negative values indicate a loss. Thereafter, these variation values were stored in a pandas DataFrame and transposed in order to be cleaned and handled.
+
 3. Data Cleaning: 
  
