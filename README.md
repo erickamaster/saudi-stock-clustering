@@ -12,11 +12,15 @@
 ## Methodology 
 > The present algorithm consists mainly of seven steps. Subsequently, these steps are described:
 
-1. Data Scraping: The financial data was extracted using the Python yfinance library, the data was scraped in a dictionary form containg the ticker as keys and the name of the stock as values. The raw data fetched consisted of OHLCV (Open High Low Close Volume) values indexed by its date in the format datetime64[ns]. After the raw data scraping, it was then handled and appended into 4 separated lists containing the useful values for the model: symbols, names, close prices and open prices. The lists containing the close and open prices where then manipulated and stacked in order to proceed for the featuring engineering step.
-2. Feature Engineering: The features used in the model are the daily price variations of the 54 stocks. In order to obtain these values, the difference between the close price and the open price is defined as variations for each trading day:
+## 1. Data Scraping:
+   The financial data was extracted using the Python yfinance library, the data was scraped in a dictionary form containg the ticker as keys and the name of the stock as values. The raw data fetched consisted of OHLCV (Open High Low Close Volume) values indexed by its date in the format datetime64[ns]. After the raw data scraping, it was then handled and appended into 4 separated lists containing the useful values for the model: symbols, names, close prices and open prices. The lists containing the close and open prices where then manipulated and stacked in order to proceed for the featuring engineering step.
+   
+## 2. Feature Engineering: 
+The features used in the model are the daily price variations of the 54 stocks. In order to obtain these values, the difference between the close price and the open price is defined as variations for each trading day:
 >variation = close_prices - open_prices
 
 This measure was used to capture the intraday directional movements of each stock. Positive values indicates that the stock gained value during that session, while negative values indicate a loss. Thereafter, these variation values were stored in a pandas DataFrame and transposed in order to be cleaned and handled.
 
-3. Data Cleaning: 
+## 3. Data Cleaning: 
+
  
