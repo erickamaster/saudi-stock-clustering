@@ -11,6 +11,7 @@
 
 ## Methodology 
 > The present algorithm consists mainly of seven steps. Subsequently, these steps are described:
+
 1.Data Scraping: The financial data was extracted using the Python yfinance library, the data was scraped in a dictionary form containg the ticker as keys and the name of the stock as values. The raw data fetched consisted of OHLCV (Open High Low Close Volume) values indexed by its date in the format datetime64[ns]. After the
  
  
