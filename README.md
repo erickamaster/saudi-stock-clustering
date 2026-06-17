@@ -22,5 +22,6 @@ The features used in the model are the daily price variations of the 54 stocks. 
 This measure was used to capture the intraday directional movements of each stock. Positive values indicates that the stock gained value during that session, while negative values indicate a loss. Thereafter, these variation values were stored in a pandas DataFrame and transposed in order to be cleaned and handled.
 
 ## 3. Data Cleaning: 
+In order to produce a complete matrix of shape n_stocks x n_days without NaN values, the missing observations from non-trading days were handled through forward-fill followed by a backward-fill interpolation.
 
  
