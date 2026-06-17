@@ -24,4 +24,14 @@ This measure was used to capture the intraday directional movements of each stoc
 ## 3. Data Cleaning: 
 In order to produce a complete matrix of shape n_stocks x n_days without NaN values, the missing observations from non-trading days were handled through forward-fill followed by a backward-fill interpolation.
 
+## 3. Standardisation:
+The z-score scaling was applied to the dataset used in the Graphical Lasso model to prevent the model from being influenced by raw value inflation caused by differing means, and to ensure equal weighting across stocks for the regularisation penalty.
+
+## 4. Graphical Lasso CV:
+After cleaning and applying z-score scaling to the dataset, it was then fitted into the Graphical Lasso CV method to estimate the sparse precision matrix (inverse covariance matrix) for Gaussian Graphical models, with a cross-validated choice of the L1 penalty from a logarithmically spaced range of candidate values (alphas). The Python library scikit-learn was used to implement this method.
+
+## 5. Affinity propagation:
+The final exploratory data analysis was done using the affinity propagation algorithm to automatically identify the clusters and exemplars (representative points) without prior requirement of clusters' number. 
+
+
  
