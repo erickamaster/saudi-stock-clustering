@@ -11,7 +11,10 @@
 
 ## Methodology 
 > The present algorithm consists mainly of seven steps. Subsequently, these steps are described:
-![Methodology](outputs/methodology.png)
+
+<p align="center">
+  <img src="outputs/methodology.png" width="70%">
+</p>
 
 ## 1. Data Scraping:
    The financial data was extracted using the Python yfinance library, the data was scraped in a dictionary form containg the ticker as keys and the name of the stock as values. The raw data fetched consisted of OHLCV (Open High Low Close Volume) values indexed by its date in the format datetime64[ns]. After the raw data scraping, it was then handled and appended into 4 separated lists containing the useful values for the model: symbols, names, close prices and open prices. The lists containing the close and open prices where then manipulated and stacked in order to proceed for the featuring engineering step.
