@@ -61,6 +61,23 @@ A 2D stock map containing coloured stock nodes and their connections in a networ
 
 <img src="outputs/saudi_stock_clusters.png" width="100%">
 
+| Cluster | Names |
+|---|---|
+| Cluster 1 | AMAK Mining |
+| Cluster 2 | Saudi Aramco, Saudi Arabian Mining, Saudi National Bank, Riyad Bank, Saudi Awwal Bank, Banque Saudi Fransi, Arab National Bank, Dr. Suleiman Al Habib, Mouwasat |
+| Cluster 3 | Al Rajhi Bank, Alinma Bank, Bank Al Bilad, Saudi Investment Bank, Bank Al Jazira, Dallah Healthcare |
+| Cluster 4 | MOBILY, ZAIN, Saudi Automative Services Co. |
+| Cluster 5 | Al Majed Oud |
+| Cluster 6 | Rabigh Refining, Dar Al Arkan, Jabal Omar, Saudi Real State Co., Makkah Construction, Astra |
+| Cluster 7 | Jamjoom Pharmaceuticals |
+| Cluster 8 | Dr. Soliman Abdul Kader |
+| Cluster 9 | Saudi Aramco Base Oil - Luberef, Qassim Cement Co., Eastern Province Cement Co. |
+| Cluster 10 |Yamamah Cement Co., Southern Province Cement Co., Riyadh Cement Co., Yanbu Cement Co., Tabuk Cement Co. |
+| Cluster 11 | GO, BinDawood, Saudi Cement Co., Arabian Cement Co., City Cement Co., Northern Region Cement Co., Najran Cement Co., Umm Al-Qura Cement Co., Al Jouf Cement Co. |
+| Cluster 12 | Yanbu Petrochemical, STC, JARIR, Al Othaim Markets, National Shipping Co., Saudi Ground Services, Saudi Public Transport |
+| Cluster 13 | SAL Logistics |
+| Cluster 14 | Flynas |
+
 Key findings:
 
 **Banking stocks formed tight clusters. The Cluster 2 contains the five major banks of Saudi Arabia alongside with other large-cap stocks, which possibily indicates high liquidity and common risk factor, with no sector specific dynamics alone (cross-sector cluster).**
