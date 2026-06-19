@@ -43,5 +43,18 @@ Locally Linear Embedding (LLE) was applied to the data to reduce it to a 2D spac
 ## 7. Cluster Visualisation:
 A 2D stock map containing coloured stock nodes and their connections in a network form was produced to facilitate visualisation in a simple and intuitive way. The partial correlations used to form the network were derived from the precision matrix to determine the strength of pairwise relationships between stocks, with absolute partial correlations greater than 0.02 being retained. The node coordinates from LLE and the relationships from partial correlations were then plotted using the matplotlib library. The node size is scaled according to the inverse-variance weighting of each stock. The node colour is assigned according to cluster membership. Edge thickness and colour intensity are scaled according to the strength of the partial correlations, allowing both cluster structure and the relative strength of pairwise relationships to be interpreted visually.
 
+## Stock Universe
+ 
+| Sector | No. of Stocks | Names |
+|---|---|---|
+| Energy | 6 | Saudi Aramco, Ma'aden, Rabigh, Yanbu, Luberef, AMAK |
+| Banking | 10 | Al Rajhi, SNB, Riyad Bank, Alinma Bank, Saudi Awwal Bank, Banque Saudi Fransi, Arab National Bank, Bank Al Bilad, Saudi Investment Bank, Bank Al Jazira |
+| Telecom | 4 | STC, Mobily, Zain, GO |
+| Retail | 5 | Jarir, BinDawood, Al Othaim |
+| Real Estate | 4 | Dar Al Arkan, Jabal Omar |
+| Healthcare | 6 | Dr. Sulaiman Al Habib, Mouwasat |
+| Cement | 14 | Saudi Cement, Yamama, Qassim |
+| Transportation | 5 | National Shipping, SAL, Flynas |
+
 
  
