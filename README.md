@@ -50,11 +50,11 @@ A 2D stock map containing coloured stock nodes and their connections in a networ
 | Energy | 6 | Saudi Aramco, Ma'aden, Rabigh, Yanbu, Luberef, AMAK |
 | Banking | 10 | Al Rajhi, SNB, Riyad Bank, Alinma Bank, Saudi Awwal Bank, Banque Saudi Fransi, Arab National Bank, Bank Al Bilad, Saudi Investment Bank, Bank Al Jazira |
 | Telecom | 4 | STC, Mobily, Zain, GO |
-| Retail | 5 | Jarir, BinDawood, Al Othaim |
-| Real Estate | 4 | Dar Al Arkan, Jabal Omar |
-| Healthcare | 6 | Dr. Sulaiman Al Habib, Mouwasat |
-| Cement | 14 | Saudi Cement, Yamama, Qassim |
-| Transportation | 5 | National Shipping, SAL, Flynas |
+| Retail | 5 | Jarir, BinDawood, Al Othaim, SASCO, Al Majed Oud |
+| Real Estate | 4 | Dar Al Arkan, Jabal Omar, Saudi Real State Co., Makkah Construction |
+| Healthcare | 6 | Dr. Sulaiman Al Habib, Mouwasat, Jamjoom, Astra, Dallah Healthcare, Dr. Soliman Abdul Kader |
+| Cement | 14 | Saudi Cement, Yamamah, Qassim, Southern Province, Riyadh, Yanbu, Arabian, Eastern Province, City, Northern Region, Najran, Umm Al-Qura, Tabuk, Al Jouf |
+| Transportation | 5 | National Shipping, SAL, Flynas, Saudi Ground Services, SPT |
 
 
  
