@@ -93,5 +93,7 @@ python saudi_stock_cluster.py
  
 The chart will be saved to `outputs/saudi_stock_clusters.png`.
 
-
+## Author
  
+Built as part of a private financial modelling research project on the Saudi Exchange (Tadawul).  
+Feel free to open an issue or reach out if you have questions or suggestions.
