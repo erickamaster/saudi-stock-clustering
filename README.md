@@ -57,15 +57,19 @@ A 2D stock map containing coloured stock nodes and their connections in a networ
 | Transportation | 5 | National Shipping, SAL, Flynas, Saudi Ground Services, SPT |
 
 ## Results
-<img src="outputs/saudi_stock_clusters.png" width="70%">
+<img src="outputs/saudi_stock_clusters.png" width="100%">
 >Each colour represents a cluster discovered by Affinity Propagation. Proximity in the 2D embedding reflectws similarity in daily price variation pattern.
 
 Key findings:
-*Banking stocks formed tight clusters. The Cluster 2 contains the five major banks of Saudi Arabia alongside with other large-cap stocks, which possibily indicates high liquidity and common risk factor, with no sector specific dynamics alone (cross-sector cluster).
--> Cement companies clustered independently from energy, splitting into 3 separate clusters Cluster9, 10 and 11) which may indicate regional dominance differences or production/demand exposure.
--> Cross-sector clusters apperaed between certain transportation and retail companies, poininting to shared consumer spending exposure.
--> Real State is the only sector which is grouped in just one specific cluster (Cluster 6). This cluster also contains Rabigh Refining and Astra, which is less intuitive.
--> Clusters 1, 5, 7, 8, 13 and 14 contain only one specific stock. These clusters are represented by AMAK mining, Al Majed Oud, Jamjoom Pharmaceuticals, Dr Soliman Abdul Kader, SAL Logistics and Flynas.This indicates that these stocks price behvaiour may not strongly correlate with any other stock in the sample. This can be possibly occur as a result of low-trading volume or unique business models.
+**Banking stocks formed tight clusters. The Cluster 2 contains the five major banks of Saudi Arabia alongside with other large-cap stocks, which possibily indicates high liquidity and common risk factor, with no sector specific dynamics alone (cross-sector cluster).**
+
+**Cement companies clustered independently from energy, splitting into 3 separate clusters Cluster9, 10 and 11) which may indicate regional dominance differences or production/demand exposure.**
+
+**Cross-sector clusters apperaed between certain transportation and retail companies, poininting to shared consumer spending exposure.**
+
+**Real State is the only sector which is grouped in just one specific cluster (Cluster 6). This cluster also contains Rabigh Refining and Astra, which is less intuitive.**
+
+**Clusters 1, 5, 7, 8, 13 and 14 contain only one specific stock. These clusters are represented by AMAK mining, Al Majed Oud, Jamjoom Pharmaceuticals, Dr Soliman Abdul Kader, SAL Logistics and Flynas.This indicates that these stocks price behvaiour may not strongly correlate with any other stock in the sample. This can be possibly occur as a result of low-trading volume or unique business models.**
 
 ## How to Run
  
