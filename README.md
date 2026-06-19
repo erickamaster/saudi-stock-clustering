@@ -65,7 +65,7 @@ Key findings:
 
 **Banking stocks formed tight clusters. The Cluster 2 contains the five major banks of Saudi Arabia alongside with other large-cap stocks, which possibily indicates high liquidity and common risk factor, with no sector specific dynamics alone (cross-sector cluster).**
 
-**Cement companies clustered independently from energy, splitting into 3 separate clusters Cluster9, 10 and 11) which may indicate regional dominance differences or production/demand exposure.**
+**Cement companies clustered independently from energy, splitting into 3 separate clusters Cluster 9, 10 and 11) which may indicate regional dominance differences or production/demand exposure.**
 
 **Cross-sector clusters apperaed between certain transportation and retail companies, poininting to shared consumer spending exposure.**
 
