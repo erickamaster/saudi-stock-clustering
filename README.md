@@ -45,7 +45,7 @@ A 2D stock map containing coloured stock nodes and their connections in a networ
 
 ## Stock Universe
  Total : 54 stocks across 8 sectors
-| Sector | No. of Stocks | Names |
+| Sector | No. of Stocks | Companies |
 |---|---|---|
 | Energy | 6 | Saudi Aramco, Ma'aden, Rabigh, Yanbu, Luberef, AMAK |
 | Banking | 10 | Al Rajhi, SNB, Riyad Bank, Alinma Bank, Saudi Awwal Bank, Banque Saudi Fransi, Arab National Bank, Bank Al Bilad, Saudi Investment Bank, Bank Al Jazira |
@@ -61,7 +61,7 @@ A 2D stock map containing coloured stock nodes and their connections in a networ
 
 <img src="outputs/saudi_stock_clusters.png" width="100%">
 
-| Cluster | Names |
+| Cluster | Companies |
 |---|---|
 | Cluster 1 | AMAK Mining |
 | Cluster 2 | Saudi Aramco, Saudi Arabian Mining, Saudi National Bank, Riyad Bank, Saudi Awwal Bank, Banque Saudi Fransi, Arab National Bank, Dr. Suleiman Al Habib, Mouwasat |
