@@ -13,7 +13,7 @@
 > The present algorithm consists mainly of seven steps. Subsequently, these steps are described:
 
 <p align="center">
-  <img src="outputs/methodology.png" width="70%">
+  <img src="outputs/methodology.png" width="40%">
 </p>
 
 ## 1. Data Scraping:
