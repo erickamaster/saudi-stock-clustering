@@ -31,7 +31,13 @@ The z-score scaling was applied to the dataset used in the Graphical Lasso model
 After cleaning and applying z-score scaling to the dataset, it was then fitted into the Graphical Lasso CV method to estimate the sparse precision matrix (inverse covariance matrix) for Gaussian Graphical models, with a cross-validated choice of the L1 penalty from a logarithmically spaced range of candidate values (alphas). The Python library scikit-learn was used to implement this method.
 
 ## 5. Affinity propagation:
-The final exploratory data analysis was done using the affinity propagation algorithm to automatically identify the clusters and exemplars (representative points) without prior requirement of clusters' number. 
+The final exploratory data analysis was performed using the Afinitty Propagation clustering algorithm, which automatically identifies clusters and their exemplars (representative points) without requiring the number of clusters to be specified in advance.
+
+## 6. Locally Linear Embedding:
+Locally Linear Embedding (LLE) was applied to the data to reduce it to a 2D space while preserving its essential structure. LLE dimensionality reduction was used to facilitate cluster visualisation in a 2D map coloured by cluster, by producing coordinates for each stock as a node.
+
+## 7. Cluster Visualisation:
+A 2D stock map containing coloured stock nodes and their connections in a network form was produced to facilitate visualisation in a simple and intuitive way. The partial correlations used to form the network were derived from the precision matrix to determine the strength of pairwise relationships between stocks, with absolute partial correlations greater than 0.02 being retained. The node coordinates from LLE and the relationships from partial correlations were then plotted using the matplotlib library. The node size is scaled according to the inverse-variance weighting of each stock. The node colour is assigned according to cluster membership. Edge thickness and colour intensity are scaled according to the strength of the partial correlations, allowing both cluster structure and the relative strength of pairwise relationships to be interpreted visually.
 
 
  
