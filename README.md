@@ -94,7 +94,7 @@ Key findings:
  
 **1. Clone the repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/saudi-stock-clustering.git
+git clone https://github.com/erickamaster/saudi-stock-clustering.git
 cd saudi-stock-clustering
 ```
  
